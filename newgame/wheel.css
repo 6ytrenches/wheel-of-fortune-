@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;;
+}
+#topmarker{
+    margin: 50px;
+    margin: 0 auto;
+    
+    height:20px;
+    width:2px;
+    position: relative;
+    background-color:blue; 
+    top:160px;
+}
+
+#spinner {
+    border-radius: 190px;
+    padding:180px;
+     margin: 50px;
+     background-color: #c00;
+     width: 100px;
+     height: 100px;
+     margin: 0 auto;
+     -webkit-transition-property: -webkit-transform;
+     -webkit-transition-timing-function: ease-out;
+     position:relative;
+     top: 180px ;
+}
+
+#marker1{
+    height:20px;
+    width:2px;
+    position: relative;
+    background-color:green; 
+    top:-190px;
+}
+
+#marker2{
+    height:20px;
+    width:2px;
+    position: relative;
+    background-color:blue; 
+    top:-40px;
+    left:180px;
+        -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+#marker3{
+    height:20px;
+    width:2px;
+    position: relative;
+    background-color:blue; 
+    top:-40px;
+    right:180px;
+        -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+#marker4{
+    height:20px;
+    width:2px;
+    position: relative;
+    background-color:blue; 
+    bottom:-110px;
+}
