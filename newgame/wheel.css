@@ -4,7 +4,7 @@
 #topmarker{
     margin: 50px;
     margin: 0 auto;
-    
+
     height:20px;
     width:2px;
     position: relative;
@@ -32,6 +32,20 @@
     position: relative;
     background-color:green; 
     top:-190px;
+}
+
+#death{
+top:10px;
+right:128px;
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 200px 50px 0 50px;
+border-color: #007bff transparent transparent transparent;
+line-height: 0px;
+_border-color: #007bff #000000 #000000 #000000;
+_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
 }
 
 #marker2{

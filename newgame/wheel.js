@@ -22,9 +22,9 @@ var marker1 = $( "#marker1" );
 var positionOne = marker1.position();
 $( "#postion1" ).text( "MARKER1: left: " + positionOne.left + ", top: " + positionOne.top );
 
-// if( positionOne.left < && {
-
-// }
+if (  (positionOne.left < 181 ) && (positionOne.left > 170 )  && (positionOne.top > -12 ) && (positionOne.top < 32)){
+alert ("true");
+}
 });
 
 
